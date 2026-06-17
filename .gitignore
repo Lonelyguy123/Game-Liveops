@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Environment — never commit secrets
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+game_ops_ui/node_modules/
+
+# Vite build output
+game_ops_ui/dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
